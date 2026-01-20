@@ -1,4 +1,11 @@
 .tuade {
   color: tomato;
+  font-size: 15pt;
   font-family: Arial;
+}
+.noidung {
+  color: green;
+  top-margin: 6pt;
+  font-size: 20pt;
+  font-family: "Times New Roman";
 }
