@@ -4,14 +4,14 @@ h1 {
 }
 .tuade {
   color: tomato;
-  font-size: 15pt;
   font-family: Arial;
+  top-margin: 20pt;
+  font-size: 20pt;
   font-weight: bold;
 }
-.noidung {
-  color: green;
-  top-margin: 6pt;
-  font-size: 20pt;
-  font-style: normal;
-  font-family: "Times New Roman";
-}
+  .noidung {
+    color: black;
+    top-margin: 6pt;
+    font-size: 15pt;
+    font-style: normal;
+  }
