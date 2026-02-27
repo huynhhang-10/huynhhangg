@@ -7,14 +7,12 @@
   flex: 15%;
   background-color: lightgray;
 }
-.menu a{
-  padding: 15px 20px;
+.menu{
   flex: 5%;
   background-color: darkgray;
 }
-.content{
-  flex: 70%;
-  background-color: white;
+.menu a{
+  padding: 15px 20px;
 }
 .content iframe{
   flex: 1;
