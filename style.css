@@ -18,6 +18,7 @@
 .content iframe{
   flex: 1;
   border: none;
+}
 .footer{
   flex: 10%;
   background-color: lightgray;
