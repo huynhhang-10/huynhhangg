@@ -18,6 +18,10 @@
     background-color: lightgray;
     color: green;
 }
+.content{
+  flex:   70%
+    back-ground color: white;
+}
 .content iframe{
   flex: 1;
   border: none;
