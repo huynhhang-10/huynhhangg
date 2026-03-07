@@ -1,31 +1,31 @@
 .container{
-  display: flex;
+  display:flex;
   flex-direction: column;
-  height: 100vh;
+  height:100vh;
 }
 .header{
-  flex: 15%;
-  aspect-ratio: 6 / 1;
+  flex:20%;
+  aspect-ratio: 6/1;
   background-color: Firebrick3;
   background: url("Images/images/tải xuống (4).jpg") center;
 }
 .menu{
-  flex: 5%;
-  background-color: darkgray;
-  color: white;
+  flex:5%;
+  background-color: LightSalmon1;
   display: flex;
   align-items: center;
+  color: black
 }
 .menu a{
   padding: 15px 20px;
   color: Firebrick;
 }
-.menu a: hover{
-    background-color: lightgray;
-    color: black;
+.menu a:hover{
+  background-color: Brown;
+  color: white;
 }
 .content{
-  flex: 70%;
+  flex:70%;
   background-color: PapayaWhip;
 }
 .content iframe{
@@ -35,24 +35,26 @@
   height:100%;
 }
 .footer{
-  flex: 10%;
-  background-color: lightgray;
+  flex:5%;
+  background-color: Firebrick;
 }
 h1 {
-  color: red;
-  top-margin: 25pt;
+  color: blue;
+  text-margin:30pt;
+  vertical-align: top;
 }
 .tuade {
-  color: tomato;
-  font-family: Arial;
-  top-margin: 20pt;
-  font-size: 20pt;
+  color: #ff0000;
+  font-family: "Times New Roman";
+  margin-top:20pt;
+  font-size:20pt;
   font-weight: bold;
 }
-  .noidung {
-    color: black;
-    top-margin: 6pt;
-    font-size: 15pt;
-    font-style: normal;
-    font-family: "Times New Roman";
-  }
+.noidung {
+  color: #000005;
+  font-family: "Times New Roman";
+  margin-top:6pt;
+  font-style:normal;
+  font-size:15pt;
+}
+  
