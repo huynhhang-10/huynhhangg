@@ -5,27 +5,34 @@
 }
 .header{
   flex: 15%;
-  background: url("images/banner.png") center / 100%;
   aspect-ratio: 6 / 1;
+  background-color: Firebrick3;
+  background: url("Images/images/tải xuống (4).jpg") center;
 }
 .menu{
   flex: 5%;
   background-color: darkgray;
   color: white;
   display: flex;
+  align-items: center;
 }
 .menu a{
   padding: 15px 20px;
-  .menu a: hover{
+  color: Firebrick;
+}
+.menu a: hover{
     background-color: lightgray;
     color: black;
+}
 .content{
-  flex:   70%;
-    back-ground color: white;
+  flex: 70%;
+  background-color: PapayaWhip;
 }
 .content iframe{
-  flex: 1;
+  flex:1;
   border: none;
+  width: 100%;
+  height:100%;
 }
 .footer{
   flex: 10%;
@@ -47,4 +54,5 @@ h1 {
     top-margin: 6pt;
     font-size: 15pt;
     font-style: normal;
+    font-family: "Times New Roman";
   }
