@@ -11,14 +11,14 @@
 }
 .menu{
   flex:5%;
-  background-color: #DC143C;
+  background-color: Crimson ;
   display: flex;
   align-items: center;
   color: black
 }
 .menu a{
   padding: 15px 20px;
-  color: Firebrick;
+  color: LightSkyBlue ;
 }
 .menu a:hover{
   background-color: Brown;
@@ -26,7 +26,7 @@
 }
 .content{
   flex:70%;
-  background-color: PapayaWhip;
+  background-color: Crimson ;
 }
 .content iframe{
   flex:1;
@@ -36,7 +36,7 @@
 }
 .footer{
   flex:5%;
-  background-color: Firebrick;
+  background-color:LightSkyBlue;
 }
 h1 {
   color: blue;
