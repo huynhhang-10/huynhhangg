@@ -6,19 +6,19 @@
 .header{
   flex:20%;
   aspect-ratio: 6/1;
-  background-color: LightSkyBlue ;
+  background-color: RosyBrown ;
   background: url("images/wili.jpg") center;
 }
 .menu{
   flex:5%;
-  background-color: Crimson ;
+  background-color: RosyBrown1 ;
   display: flex;
   align-items: center;
   color: black
 }
 .menu a{
   padding: 15px 20px;
-  color: LightSkyBlue ;
+  color: RosyBrown ;
 }
 .menu a:hover{
   background-color: Brown;
@@ -26,7 +26,7 @@
 }
 .content{
   flex:70%;
-  background-color: Crimson ;
+  background-color: RosyBrown1 ;
 }
 .content iframe{
   flex:1;
@@ -36,7 +36,7 @@
 }
 .footer{
   flex:5%;
-  background-color:LightSkyBlue;
+  background-color:RosyBrown ;
 }
 h1 {
   color: blue;
