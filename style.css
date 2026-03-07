@@ -6,12 +6,12 @@
 .header{
   flex:20%;
   aspect-ratio: 6/1;
-  background-color: Firebrick3;
+  background-color: LightSkyBlue ;
   background: url("images/wili.jpg") center;
 }
 .menu{
   flex:5%;
-  background-color: LightSalmon1;
+  background-color: #DC143C;
   display: flex;
   align-items: center;
   color: black
