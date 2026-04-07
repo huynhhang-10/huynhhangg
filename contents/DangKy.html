@@ -1,0 +1,19 @@
+<html>
+   <head>
+     <meta charset="UTF-8">
+    <title> Kết quả phản hồi </title>
+  </head>
+  <body>
+     <p id="kq"> </p>
+     <script>
+       let params = new URLSearchParams(window.location.search);
+       let name = params.get("txtTen");
+      document.getElementById("kq").innerHTML ="Cảm ơn bạn " + name + " đã đăng ký";
+     </script>
+     
+     <br>
+     <form action="DangKyHoiThao.html">
+        <input type="submit" value="Quay lại">
+    </form>
+  </body>
+</html>
